@@ -4,6 +4,8 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix",
     "format": "prettier -w src/**/*.js",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server"
@@ -12,6 +14,9 @@
   "author": "Noroff",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.4.0",
     "live-server": "^1.2.2",
     "prettier": "^3.3.1",
     "sass": "^1.54.8"
