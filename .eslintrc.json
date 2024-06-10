@@ -21,6 +21,14 @@
         "cypress/no-unnecessary-waiting": "off",
         "no-unused-vars": "off"
       }
+    },
+    {
+      "files": ["cypress.config.js"],
+      "env": { "node": true },
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off"
+      }
     }
   ],
   "parserOptions": {
