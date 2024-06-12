@@ -9,11 +9,7 @@ describe("A failed login", () => {
       cy.get("input#loginPassword").type(loginData.password);
     });
     cy.get('button[type="submit"]').contains("Login").click();
-    cy.on("window:alert", (text) => {
-      expect(text).to.include(
-        "Either your username was not found or your password is incorrect",
-      );
-    });
+    cy.get("#loginModal").should("be.visible");
     cy.get(`header button[data-auth="logout"]`).should("not.be.visible");
 
     // Check that there is no token in local storage after failed login
