@@ -1,3 +1,7 @@
+[![Deploy static content to Pages](https://github.com//StianL82/Workflow/actions/workflows/pages.yml/badge.svg?branch=workflow)](https://github.com//StianL82/Workflow/actions/workflows/pages.yml)
+[![Automated Unit Testing](https://github.com/StianL82/Workflow/actions/workflows/unit-test.yml/badge.svg)](https://github.com/StianL82/Workflow/actions/workflows/unit-test.yml)
+[![Automated E2E Testing](https://github.com/StianL82/Workflow/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/StianL82/Workflow/actions/workflows/e2e-test.yml)
+
 # Workflow CA
 
 This repository is a fork of the [Noroff Social Media Client repo](https://github.com/noroffFEU/social-media-client)
